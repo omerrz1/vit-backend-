@@ -1,0 +1,39 @@
+{
+  "_name_or_path": "WinKawaks/vit-tiny-patch16-224",
+  "architectures": [
+    "ViTForImageClassification"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "encoder_stride": 16,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 192,
+  "id2label": {
+    "0": "Actinic keratosis",
+    "1": "Benign keratosis",
+    "2": "Dermatofibroma",
+    "3": "Melanocytic nevus",
+    "4": "Vascular lesion"
+  },
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "intermediate_size": 768,
+  "label2id": {
+    "Actinic keratosis": 0,
+    "Benign keratosis": 1,
+    "Dermatofibroma": 2,
+    "Melanocytic nevus": 3,
+    "Vascular lesion": 4
+  },
+  "layer_norm_eps": 1e-12,
+  "model_type": "vit",
+  "num_attention_heads": 3,
+  "num_channels": 3,
+  "num_hidden_layers": 12,
+  "output_attentions": true,
+  "patch_size": 16,
+  "problem_type": "single_label_classification",
+  "qkv_bias": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.48.3"
+}
